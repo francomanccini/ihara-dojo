@@ -51,6 +51,9 @@ a:hover{
     color:white;
     padding: 50px;
 }
+.parrafo1:hover{
+    background-color: grey;
+}
 .divseminario{
     display: grid;
     grid-template-columns: auto auto;
@@ -60,6 +63,9 @@ a:hover{
 }
 .fotosseminario{
     width: 500px;
+}
+.fotosseminario:hover{
+    transform: scale(110%);
 }
 footer{
     padding-left: 25%;
