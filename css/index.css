@@ -109,12 +109,18 @@ footer{
      width: 500px;
      padding: 50px;
  }
+ .photopeleadores:hover{
+     transform: scale(110%);
+ }
  .parrafopeleadores{
     padding: 50px;
  }
  .titulopeleadores{
      background-color: white;
      text-align: center;
+ }
+ .titulopeleadores:hover{
+     background-color: blue;
  }
  @media (max-width: 480px) {
      .papipeleadores{
