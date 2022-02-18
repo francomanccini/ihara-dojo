@@ -28,40 +28,19 @@ footer{
     
 }
                                              /*PELEADORES*/
-
-.papipeleadores{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    padding: 50px;
- }                                             
+                                         
 .photopeleadores{
      width: 500px;
-     padding: 50px;
- }
- .photopeleadores:hover{
-     transform: scale(110%);
- }
- .parrafopeleadores{
-    padding: 50px;
- }
- .titulopeleadores{
-     background-color: white;
-     text-align: center;
- }
- .titulopeleadores:hover{
-     background-color: blue;
- }
- @media (max-width: 480px) {
-     .papipeleadores{
-        display: flex;
-        flex-direction: column;
-     }
-     .photopeleadores{
-         padding: 10px;
-         width: 350px;
-     }
- }
+     padding: 10px;
+}
+.titulopeleadores{
+    color: black;
+}
+.parrafopeleadores{
+    color: white;
+}
+
+
                                               /*EVENTOS*/
 .divparrafoeventos{
     padding: 50px;
