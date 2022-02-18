@@ -4,52 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>IHARA DOJO</title>
 </head>
-<body>
-    <header> 
-            <ul>
-               <li>
-                <a href="index.html">
-                    <img  class="milogo" src="media/logo.jpg" alt="milogo">
-                </a>
-               </li>
-               <li><a href="index.html">inicio</a></li>
-               <li><a href="peleadores.html">peleadores</a></li>
-               <li><a href="eventos.html">eventos</a></li>
-               <li><a href="info.html">info</a></li>
-               <li><a href="inscripcion.html">inscripcion</a></li>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-blue bg-black">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img  class="milogo" src="media/logo.jpg" alt="milogo">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="peleadores.html">peleadores</a>
+                  </li>      
+              <li class="nav-item">
+                <a class="nav-link" href="eventos.html">eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="info.html">info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inscripcion.html">inscripcion</a>
+              </li>
             </ul>
-    </header>    
-    <div>
-        <img class="fotoprincipal" src="media/fotohome.jpg" alt="fotoprincipal" >
-    </div>
-    <div class="parrafoindex">
+          </div>
+        </div>
+      </nav>
 
-            <p class="parrafo1">IHARA DOJO ARGENTINA es la filial oficial de IHARA DOJO JAPÓN y 
-            miembro de WKBA WORLD KICK BOXING ASSOCIATION Y SHIN NIHON KICKBOXING ASSOCIATION.
-            Nuestro objetivo principal es el desarrollo profesional y amateur del Kickboxing a
-            nivel internacional, como tambièn el sano desarrollo de la juventud a través del deporte. 
-            Kaicho Shinichi Ihara es la màxima autoridad a nivel internacional.
-            Diego Gonzalez La Volpe fue designado por Kaicho Ihara como 
-            Branch Chief Ihara Dojo Filial Argentina y 
-            miembro de WKBA World Kickboxing association y Shin Nihon Kickboxing Association.
-            </p>
+    <section class="container"> 
+
+        <div class="row">
+
+            <div class="col">
+                <img class="fotoprincipal" src=media/fotohome.jpg alt="fotoprincipal"  ">
+            </div>
+            <div class="col">
+
+                <p class="parrafo1">IHARA DOJO ARGENTINA es la filial oficial de IHARA DOJO JAPÓN y 
+                miembro de WKBA WORLD KICK BOXING ASSOCIATION Y SHIN NIHON KICKBOXING ASSOCIATION.
+                Nuestro objetivo principal es el desarrollo profesional y amateur del Kickboxing a
+                nivel internacional, como tambièn el sano desarrollo de la juventud a través del deporte. 
+                Kaicho Shinichi Ihara es la màxima autoridad a nivel internacional.
+                Diego Gonzalez La Volpe fue designado por Kaicho Ihara como 
+                Branch Chief Ihara Dojo Filial Argentina y 
+                miembro de WKBA World Kickboxing association y Shin Nihon Kickboxing Association.
+                </p>
+            </div>
+        </div>     
+    </section>
+    
+    
+    
+
+    <section class="container"> 
+
+        <div class="row">
+
+            <div class="col-7">
+                <img class="fotosseminario" src="media/seminario1.jpeg" alt="juanma">
+            </div>
+            <div class="col-3">
+                <img class="fotosseminario" src="media/seminario2.jpeg" alt="franco">
+            </div>
+
         </div>
-    <div class="divseminario">
-        <div class="divfotosseminario" >
-            <img class="fotosseminario" src="media/seminario1.jpeg" alt="juanma">
-        </div>
-        <div class="divfotosseminario">
-            <img class="fotosseminario" src="media/seminario2.jpeg" alt="franco">
-        </div>
-    </div>
+
+    </section> 
     <footer>
         <h1>
             psucursal- entre rios 350 piso 1, quilmes centro
         </h1>
     </footer>
 
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" 
+    crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+   integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
+   crossorigin="anonymous">
+   </script>
 </body>
 </html>

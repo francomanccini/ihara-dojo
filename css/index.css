@@ -3,99 +3,29 @@ body{
     background-color:grey;
     font-family: 'Alfa Slab One', cursive ; 
 }
-nav{
-    font-size: 25px;
-}
-ul{
-    padding-left: 200px;
-    background-color: black;
-}
-li{
-    display: inline;
-    background-color:black ;
-    list-style-type: none;
-}
 .milogo{
     width: 100px;
-    position: center;
 }
 .milogo:hover{
-    border-radius: 45%;
+    border-radius: 35%;
 }
 a{
     font-size: 25px;
-    color: white;
-    text-decoration: none;
 }
-a:hover{
-    transform: scale(110%);/*POR QUE MIS A NO HACEN SU TRASNFORMACION ?*/
-    color: rgb(61, 173, 224);
+.container{
+    padding:10px;
 }
 .fotoprincipal{
-    padding: 50px;
-    width: 700px;
-    padding-left: 300px;
-    
-}
-.fotoprincipal:hover{
-    transform: scale(110%);
-}
-.parrafoindex{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 50px;
-
-}
-.parrafo1{
-    background-color:black;
-    color:white;
-    padding: 50px;
-}
-.parrafo1:hover{
-    background-color: grey;
-}
-.divseminario{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-left: 150px;
-    
-    
+    width: 750px;
 }
 .fotosseminario{
-    width: 500px;
-}
-.fotosseminario:hover{
-    transform: scale(110%);
+    width: 450px;
 }
 footer{
-    padding-left: 25%;
-    padding-bottom: 0%;
-    background-color: rgb(63, 61, 61);
-
-}
-@media (max-width: 480px) {
-    ul{
-        padding: 50px;
-    }
-    body{
-        background-color: blue;
-    }
-    .fotoprincipal{
-        padding: 40px;
-        width: 400px
-    }
-    .parrafoindex{
-        padding:10px;
-    }
-    .divseminario{
-        display: grid;
-        grid-template-rows: auto auto;
-        justify-content: center;
-        padding-left: 10px;
-    }
-    .fotosseminario{
-        width: 200px;
-    }
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    
 }
                                              /*PELEADORES*/
 
