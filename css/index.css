@@ -15,6 +15,12 @@ a{
 .container{
     padding:10px;
 }
+.row{
+    padding: 10px;
+}
+.col{
+    padding: 10px;
+}
 .fotoprincipal{
     width: 750px;
 }
@@ -36,42 +42,18 @@ footer{
 .titulopeleadores{
     color: black;
 }
-.parrafopeleadores{
-    color: white;
-}
-
 
                                               /*EVENTOS*/
+
 .divparrafoeventos{
     padding: 50px;
-    padding-top: 50px;
-    font-size:15px;
 }
-.principaleventos{
-    color: black;
-    padding: 50px;
+.parrafoeventos{
+    border: solid;
+    background-color: white;
 }
-.papieventos{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-}                                              
-.diveventos{
-    background-color:white;
-} 
 .eventosjpg{
     width: 300px;
     padding: 13px;
 }
-@media (max-width: 480px){
-    .divparrafoeventos{
-        background-color: white;
-    }
-    .papieventos{
-        display: flex;
-        flex-direction: column;
-    }
-    .eventosjpg{
-        padding: 80px;
-    }
-}                                            
+                                         
