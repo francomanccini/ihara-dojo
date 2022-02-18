@@ -12,6 +12,9 @@ body{
 a{
     font-size: 25px;
 }
+.fotoprincipal{
+    border: solid;
+}
 .container{
     padding:10px;
 }
@@ -25,6 +28,7 @@ a{
     width: 750px;
 }
 .fotosseminario{
+    border: solid;
     width: 450px;
 }
 footer{
@@ -36,8 +40,9 @@ footer{
                                              /*PELEADORES*/
                                          
 .photopeleadores{
+     border: solid;
      width: 500px;
-     padding: 10px;
+    
 }
 .titulopeleadores{
     color: black;
@@ -53,7 +58,13 @@ footer{
     background-color: white;
 }
 .eventosjpg{
+    border: solid;
     width: 300px;
-    padding: 13px;
 }
+                                             /*INFO*/
+.shigemori{
+    border: solid;
+    width:800px;
+}                                             
+
                                          
