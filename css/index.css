@@ -92,7 +92,7 @@ footer{
     flex-direction: row;
 }
 .divfotoseventos{
-    padding: 10px;px;
+    padding: 10px;
 }
 .divparrafoeventos{
     padding: 10px;
@@ -102,6 +102,20 @@ footer{
     width: 300px;
 }
                                              /*INFO*/
+ 
+.divnuestraconviccion{
+    padding: 10px;
+}
+.divcaichoiara{
+    padding: 10px;
+    
+}
+.divshigemori{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}                                             
 .shigemori{
     border: solid;
     width:800px;
