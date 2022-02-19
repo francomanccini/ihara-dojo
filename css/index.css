@@ -31,6 +31,10 @@ a{
     border: solid;
     width: 450px;
 }
+.spanseminario{
+    padding: 15px;
+    text-align: center;
+}
 footer{
     padding: 15px;
     text-align: center;
@@ -44,8 +48,14 @@ footer{
      width: 500px;
     
 }
+.photopeleadores:hover{
+    transform: scale(105%);
+}
 .titulopeleadores{
     color: black;
+}
+.titulopeleadores:hover{
+    transform: scale(105%);
 }
 
                                               /*EVENTOS*/
