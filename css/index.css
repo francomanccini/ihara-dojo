@@ -78,12 +78,24 @@ footer{
 
                                               /*EVENTOS*/
 
-.divparrafoeventos{
-    padding: 50px;
+.tituloseventos{
+    text-align: center;
+    color: black;
+    background-color:lightgrey;
 }
-.parrafoeventos{
-    border: solid;
-    background-color: white;
+.divargentina{
+    display: flex;
+    flex-direction: row;
+}
+.divjapon{
+    display: flex;
+    flex-direction: row;
+}
+.divfotoseventos{
+    padding: 10px;px;
+}
+.divparrafoeventos{
+    padding: 10px;
 }
 .eventosjpg{
     border: solid;
