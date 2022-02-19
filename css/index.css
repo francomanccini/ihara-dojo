@@ -12,6 +12,24 @@ body{
 a{
     font-size: 25px;
 }
+.a:hover{
+    transform: scale(110%);
+}
+.instagramlogo{
+    padding: 5px;
+    width:50px;
+}
+.facebooklogo{
+    padding:5px;
+    width:50px;
+    border-radius: 25%;
+}
+.instagramlogo:hover{
+    transform: scale(105%);
+}
+.facebooklogo:hover{
+    transform: scale(105%);
+}
 .fotoprincipal{
     border: solid;
 }
