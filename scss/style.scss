@@ -1,0 +1,40 @@
+@import"components/_eventos.scss";
+@import"components/index";
+body{
+    background-color: rgb(18, 1, 36);
+}
+.milogo{
+    width: 100px;
+    border-radius: 35%;
+    &:hover{
+        transform: scale(105%);
+    }
+}
+a{
+    font-size: 25px;
+    &:hover{
+        transform: scale(105%);
+    }
+}
+.instagramlogo{
+    padding: 10px;
+    width: 65px;
+}
+.facebooklogo{
+    padding: 10px;
+    width: 65px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    padding-left: 400px;
+    span{
+        color: red;
+        background-color: black;
+        padding: 10px;
+        font-size: 25px;
+    }
+}
+

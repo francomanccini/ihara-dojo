@@ -1,0 +1,49 @@
+.divprincipal{
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.fotoprincipal{
+    padding: 10px;
+    width: 900px;
+}
+.divparrafo1{
+    padding: 10px;
+}
+.parrafo1{
+    background-color: white;
+}
+.divseminario{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.fotosseminario{
+    width: 600px;
+}
+.divtextoseminario{
+    padding: 15px;
+}
+.textoseminario{
+    color: black;
+    background-color:white;
+    font-size: 17px;
+}
+.divtitulocarrusel{
+    padding: 10px;
+}
+.titulocarrusel{
+    color: black;
+    background-color:white;
+    padding: 10px;
+    padding-left: 400px;
+}
+.divcarrusel{
+    padding: 10px;
+    padding-left: 100px;
+}
+.imagenescarrusel{
+    padding-left: 150px;
+}

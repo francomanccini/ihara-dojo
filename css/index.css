@@ -1,141 +1,107 @@
+h1 {
+  color: rebeccapurple;
+}
 
+.divprincipal {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fotoprincipal {
+  padding: 10px;
+  width: 900px;
+}
+
+.divparrafo1 {
+  padding: 10px;
+}
+
+.parrafo1 {
+  background-color: white;
+}
+
+.divseminario {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.fotosseminario {
+  width: 600px;
+}
+
+.divtextoseminario {
+  padding: 15px;
+}
+
+.textoseminario {
+  color: black;
+  background-color: white;
+  font-size: 17px;
+}
+
+.divtitulocarrusel {
+  padding: 10px;
+}
+
+.titulocarrusel {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  padding-left: 400px;
+}
+
+.divcarrusel {
+  padding: 10px;
+  padding-left: 100px;
+}
+
+.imagenescarrusel {
+  padding-left: 150px;
+}
+
+body {
+  background-color: #120124;
+}
+
+.milogo {
+  width: 100px;
+  border-radius: 35%;
+}
+.milogo:hover {
+  transform: scale(105%);
+}
+
+a {
+  font-size: 25px;
+}
+a:hover {
+  transform: scale(105%);
+}
+
+.instagramlogo {
+  padding: 10px;
+  width: 65px;
+}
+
+.facebooklogo {
+  padding: 10px;
+  width: 65px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  padding-left: 400px;
+}
+footer span {
+  color: red;
+  background-color: black;
+  padding: 10px;
+  font-size: 25px;
+}
 
 /*# sourceMappingURL=index.css.map */
-body{
-    font-style: italic;
-    background-color:grey;
-    font-family: 'Alfa Slab One', cursive ; 
-}
-.milogo{
-    width: 100px;
-}
-.milogo:hover{
-    border-radius: 35%;
-}
-a{
-    font-size: 25px;
-}
-.a:hover{
-    transform: scale(110%);
-}
-.instagramlogo{
-    padding: 5px;
-    width:50px;
-}
-.facebooklogo{
-    padding:5px;
-    width:50px;
-    border-radius: 25%;
-}
-.instagramlogo:hover{
-    transform: scale(105%);
-}
-.facebooklogo:hover{
-    transform: scale(105%);
-}
-.fotoprincipal{
-    border: solid;
-}
-.container{
-    padding:10px;
-}
-.row{
-    padding: 10px;
-}
-.col{
-    padding: 10px;
-}
-.fotoprincipal{
-    width: 750px;
-}
-.fotosseminario{
-    border: solid;
-    width: 450px;
-}
-.spanseminario{
-    padding: 15px;
-    text-align: center;
-}
-.carruseltitulo{
-
-}
-h2{
-    padding: 10px;
-    color:white;
-    text-align: center;
-    background-color: black;
-}
-.carousel-inner{
-    padding: 25px;
-}
-.imagenescarrusel{
-    margin: 0 auto;
-    padding-left: 175px;
-}
-footer{
-    padding: 15px;
-    text-align: center;
-    background-color: black;
-    
-}
-                                             /*PELEADORES*/
-                                         
-.photopeleadores{
-     border: solid;
-     width: 500px;
-    
-}
-.photopeleadores:hover{
-    transform: scale(105%);
-}
-.titulopeleadores{
-    color: black;
-}
-.titulopeleadores:hover{
-    transform: scale(105%);
-}
-
-                                              /*EVENTOS*/
-
-.tituloseventos{
-    text-align: center;
-    color: black;
-    background-color:lightgrey;
-}
-.divargentina{
-    display: flex;
-    flex-direction: row;
-}
-.divjapon{
-    display: flex;
-    flex-direction: row;
-}
-.divfotoseventos{
-    padding: 10px;
-}
-.divparrafoeventos{
-    padding: 10px;
-}
-.eventosjpg{
-    border: solid;
-    width: 300px;
-}
-                                             /*INFO*/
- 
-.divnuestraconviccion{
-    padding: 10px;
-}
-.divcaichoiara{
-    padding: 10px;
-    
-}
-.divshigemori{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}                                             
-.shigemori{
-    border: solid;
-    width:800px;
-}                                             
