@@ -1,5 +1,33 @@
-h1 {
-  color: rebeccapurple;
+.divparrafoeventos1 {
+  padding: 10px;
+}
+
+.parrafoeventos {
+  color: black;
+  background-color: white;
+}
+
+.tituloseventos {
+  padding: 5px;
+  padding-left: 550px;
+  color: black;
+  background-color: #a0068b;
+}
+
+.divargentina {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.divjapon {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.eventosjpg {
+  width: 600px;
 }
 
 .divprincipal {
@@ -62,6 +90,58 @@ h1 {
   padding-left: 150px;
 }
 
+.col {
+  padding: 10px;
+}
+
+.photopeleadores {
+  padding: 5px;
+  width: 600px;
+}
+
+.titulopeleadores {
+  padding: 10px;
+  padding-left: 100px;
+  color: #971c78;
+  background-color: #ae90b1;
+}
+
+.textopeleadores {
+  background-color: white;
+}
+
+.divnuestraconviccion {
+  padding: 10px;
+  color: #e470cb;
+}
+
+.divcaichoiara {
+  padding: 10px;
+  color: #e470cb;
+}
+
+.tituloinfo {
+  padding: 15px;
+  padding-left: 450px;
+  color: black;
+  background-color: white;
+}
+
+.divshigemori {
+  padding: 10px;
+  padding-left: 150px;
+}
+
+.shigemori {
+  width: 1000px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: #ec41d0;
+}
+
 body {
   background-color: #120124;
 }
@@ -102,6 +182,10 @@ footer span {
   background-color: black;
   padding: 10px;
   font-size: 25px;
+}
+
+.eventosjpg {
+  width: 400px;
 }
 
 /*# sourceMappingURL=index.css.map */

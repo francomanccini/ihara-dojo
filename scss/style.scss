@@ -1,5 +1,8 @@
 @import"components/_eventos.scss";
-@import"components/index";
+@import"components/_index.scss";
+@import"components/_peleadores.scss";
+@import"components/_info.scss";
+@import"components/_inscripcion.scss";
 body{
     background-color: rgb(18, 1, 36);
 }
@@ -37,4 +40,6 @@ footer{
         font-size: 25px;
     }
 }
-
+.eventosjpg{
+    width: 400px;
+}

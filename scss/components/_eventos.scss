@@ -1,3 +1,26 @@
-h1{
-    color: rebeccapurple;
+.divparrafoeventos1{
+    padding: 10px;
+}
+.parrafoeventos{
+    color: black;
+    background-color: white;
+}
+.tituloseventos{
+    padding: 5px;
+    padding-left: 550px;
+    color: black;
+    background-color: rgb(160, 6, 139);
+}
+.divargentina{
+    padding: 10px;
+    display:flex;
+    flex-direction:row;
+}
+.divjapon{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.eventosjpg{
+    width: 600px;
 }
