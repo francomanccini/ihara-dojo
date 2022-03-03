@@ -52,6 +52,7 @@
 
 .divseminario {
   padding: 10px;
+  padding-left: 50px;
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -65,8 +66,9 @@
 }
 
 .textoseminario {
-  color: black;
-  background-color: white;
+  padding: 10px;
+  padding-left: 350px;
+  color: white;
   font-size: 17px;
 }
 
@@ -137,6 +139,7 @@
 }
 
 .formulario {
+  padding: 10px;
   display: flex;
   flex-direction: column;
   background-color: #ec41d0;
@@ -146,12 +149,22 @@ body {
   background-color: #120124;
 }
 
+h1 {
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+h1:hover {
+  background-color: #120124;
+}
+
 .milogo {
   width: 100px;
   border-radius: 35%;
 }
 .milogo:hover {
-  transform: scale(105%);
+  color: #120124;
 }
 
 a {
@@ -178,7 +191,7 @@ footer {
   padding-left: 400px;
 }
 footer span {
-  color: red;
+  color: #2434c4;
   background-color: black;
   padding: 10px;
   font-size: 25px;
