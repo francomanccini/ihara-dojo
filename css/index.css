@@ -30,6 +30,36 @@
   width: 600px;
 }
 
+@media screen and (max-width: 480px) {
+  .divparrafoeventos1 {
+    padding: 10px;
+    display: flex;
+  }
+
+  .parrafoeventos {
+    padding: 10px;
+    padding-left: 50px;
+    justify-content: center;
+  }
+
+  .tituloseventos {
+    padding: 10px;
+    padding-left: 100px;
+    background-color: aliceblue;
+  }
+
+  .divargentina {
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+  }
+
+  .divjapon {
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+  }
+}
 .divprincipal {
   padding: 10px;
   display: flex;
@@ -104,6 +134,66 @@
   background-color: black;
 }
 
+@media screen and (max-width: 480px) {
+  .fotoprincipal {
+    padding: 10px;
+    padding-left: 250px;
+    width: 900px;
+  }
+
+  .divparrafo1 {
+    display: block;
+  }
+
+  .parrafo1 {
+    display: block;
+  }
+
+  .divseminario {
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+  }
+
+  .fotosseminario {
+    padding: 10px;
+  }
+
+  .divtextoseminario {
+    padding: 10px;
+    padding-left: 50px;
+  }
+
+  .textoseminario {
+    padding: 10px;
+    color: black;
+  }
+
+  .divtitulocarrusel {
+    padding: 5px;
+  }
+
+  .divcarrusel {
+    padding: 10px;
+    padding-left: 200px;
+  }
+
+  .imagenescarrusel {
+    width: 900px;
+  }
+
+  .ruiebatafight {
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    padding-left: 200px;
+  }
+
+  .divruiebatafight {
+    padding: 10px;
+    padding-left: 5px;
+  }
+}
 .col {
   padding: 10px;
 }
@@ -124,6 +214,20 @@
   background-color: white;
 }
 
+@media screen and (max-width: 480px) {
+  .titulopeleadores {
+    padding: 10px;
+    padding-left: 160px;
+    color: black;
+    background-color: aliceblue;
+  }
+
+  .textopeleadores {
+    padding: 10px;
+    padding-left: 180px;
+    background-color: aliceblue;
+  }
+}
 .divnuestraconviccion {
   padding: 10px;
   color: #e470cb;
@@ -150,6 +254,33 @@
   width: 1000px;
 }
 
+@media screen and (max-width: 480px) {
+  .divnuestraconviccion {
+    padding: 10px;
+    padding-left: 100px;
+    color: black;
+  }
+
+  .divcaichoiara {
+    padding: 10px;
+    padding-left: 100px;
+    color: black;
+  }
+
+  .tituloinfo {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .divshigemori {
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  .shigemori {
+    width: 500px;
+  }
+}
 .formulario {
   padding: 10px;
   display: flex;
@@ -211,6 +342,12 @@ footer span {
 
 .eventosjpg {
   width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: aliceblue;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

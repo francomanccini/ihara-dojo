@@ -1,6 +1,6 @@
 .divnuestraconviccion{
     padding: 10px;
-   color: rgb(228, 112, 203);
+    color: rgb(228, 112, 203);
 }
 .divcaichoiara{
     padding: 10px;
@@ -18,4 +18,28 @@
 }
 .shigemori{
     width: 1000px;
+}
+@media screen and ( max-width: 480px ){
+    .divnuestraconviccion{
+        padding: 10px;
+        padding-left: 100px;
+        color: black;
+    }
+    .divcaichoiara{
+        padding: 10px;
+        padding-left: 100px;
+        color: black;
+    }
+    .tituloinfo{
+        padding: 10px;
+        text-align: center;
+    }
+    .divshigemori{
+        padding: 5px;
+        padding-left: 10px;
+    }
+    .shigemori{
+        width: 500px;
+    }
+
 }

@@ -59,3 +59,53 @@
     color: white;
     background-color: black;
 }
+@media screen and ( max-width: 480px ){
+    .fotoprincipal{
+        padding:10px;
+        padding-left:250px;
+        width: 900px;
+    }
+    .divparrafo1{
+        display: block;
+    }
+    .parrafo1{
+        display: block;
+    }
+    .divseminario{
+        padding: 10px;
+        padding-left: 50px;
+        display: block;
+        
+    }
+    .fotosseminario{
+        padding: 10px;
+    }
+    .divtextoseminario{
+        padding: 10px;
+        padding-left: 50px;
+    }
+    .textoseminario{
+        padding: 10px;
+        color: black;
+    }
+    .divtitulocarrusel{
+        padding: 5px;
+    }
+    .divcarrusel{
+        padding: 10px;
+        padding-left: 200px;
+    }
+    .imagenescarrusel{
+        width:900px;
+    }
+    .ruiebatafight{
+        color: black;
+        background-color: aliceblue;
+        padding: 10px;
+        padding-left: 200px;
+    }
+    .divruiebatafight{
+        padding: 10px;
+        padding-left: 5px;
+    }
+}
