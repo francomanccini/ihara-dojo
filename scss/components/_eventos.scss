@@ -2,19 +2,23 @@
     padding: 10px;
 }
 .parrafoeventos{
-    color: black;
-    background-color: white;
+    padding: 5px;
+    color:rgb(228, 112, 203);
+    
 }
 .tituloseventos{
     padding: 5px;
     padding-left: 550px;
     color: black;
-    background-color: rgb(160, 6, 139);
+    background-color:white;
 }
 .divargentina{
     padding: 10px;
     display:flex;
     flex-direction:row;
+}
+.divfotoeventos{
+    padding: 10px;
 }
 .divjapon{
     padding: 10px;
@@ -22,7 +26,7 @@
     flex-direction: row;
 }
 .eventosjpg{
-    width: 600px;
+    width: 800px;
 }
 @media screen and ( max-width: 480px ){
     .divparrafoeventos1{

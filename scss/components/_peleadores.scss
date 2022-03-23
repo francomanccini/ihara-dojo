@@ -7,12 +7,68 @@
 }
 .titulopeleadores{
     padding: 10px;
-    padding-left: 100px;
+    padding-left: 35px;
     color: rgb(151, 28, 120);
-    background-color:rgb(174, 144, 177);
+    background-color: white;
 }
 .textopeleadores{
-    background-color: white;
+    color: rgb(228, 112, 203);
+}
+.galeriaanibal1{
+    padding:10px;
+    padding-left: 30px;
+    width: 500px;
+}
+.galeriaanibal2{
+    padding:10px;
+    padding-left: 30px;
+    width: 500px;
+}
+.divgaleriaema{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.galeriaema1{
+    padding: 5px;
+    width: 200px;
+}
+.galeriaema2{
+    padding: 5px;
+    width: 300px;
+}
+.divgaleriafranco{
+    padding-left: 60px;
+}
+.galeriafranco1{
+    padding: 5px;
+    width: 380px;
+}
+.galeriafranco2{
+    padding: 5px;
+    width: 380px;
+}
+.divgaleriajopo{
+    padding-left: 50px;
+}
+.galeriajopo1{
+    padding: 5px;
+    width: 380px;
+}
+.galeriajopo2{
+    padding: 5px;
+    width: 380px;
+}
+.divgaleriajuan{
+    padding-left: 70px;
+}
+.galeriajuan1{
+    padding: 5px;
+    width: 300px;
+}
+.galeriajuan2{
+    padding: 5px;
+    width: 300px;
 }
 @media screen and ( max-width: 480px ){
     .titulopeleadores{

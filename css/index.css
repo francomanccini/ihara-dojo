@@ -3,21 +3,25 @@
 }
 
 .parrafoeventos {
-  color: black;
-  background-color: white;
+  padding: 5px;
+  color: #e470cb;
 }
 
 .tituloseventos {
   padding: 5px;
   padding-left: 550px;
   color: black;
-  background-color: #a0068b;
+  background-color: white;
 }
 
 .divargentina {
   padding: 10px;
   display: flex;
   flex-direction: row;
+}
+
+.divfotoeventos {
+  padding: 10px;
 }
 
 .divjapon {
@@ -27,7 +31,7 @@
 }
 
 .eventosjpg {
-  width: 600px;
+  width: 800px;
 }
 
 @media screen and (max-width: 480px) {
@@ -98,7 +102,7 @@
 .textoseminario {
   padding: 10px;
   padding-left: 350px;
-  color: white;
+  color: #e470cb;
   font-size: 17px;
 }
 
@@ -130,8 +134,8 @@
 .ruiebatafight {
   padding: 5px;
   text-align: center;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -205,13 +209,83 @@
 
 .titulopeleadores {
   padding: 10px;
-  padding-left: 100px;
+  padding-left: 35px;
   color: #971c78;
-  background-color: #ae90b1;
+  background-color: white;
 }
 
 .textopeleadores {
-  background-color: white;
+  color: #e470cb;
+}
+
+.galeriaanibal1 {
+  padding: 10px;
+  padding-left: 30px;
+  width: 500px;
+}
+
+.galeriaanibal2 {
+  padding: 10px;
+  padding-left: 30px;
+  width: 500px;
+}
+
+.divgaleriaema {
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.galeriaema1 {
+  padding: 5px;
+  width: 200px;
+}
+
+.galeriaema2 {
+  padding: 5px;
+  width: 300px;
+}
+
+.divgaleriafranco {
+  padding-left: 60px;
+}
+
+.galeriafranco1 {
+  padding: 5px;
+  width: 380px;
+}
+
+.galeriafranco2 {
+  padding: 5px;
+  width: 380px;
+}
+
+.divgaleriajopo {
+  padding-left: 50px;
+}
+
+.galeriajopo1 {
+  padding: 5px;
+  width: 380px;
+}
+
+.galeriajopo2 {
+  padding: 5px;
+  width: 380px;
+}
+
+.divgaleriajuan {
+  padding-left: 70px;
+}
+
+.galeriajuan1 {
+  padding: 5px;
+  width: 300px;
+}
+
+.galeriajuan2 {
+  padding: 5px;
+  width: 300px;
 }
 
 @media screen and (max-width: 480px) {
