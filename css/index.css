@@ -403,15 +403,17 @@ a:hover {
 }
 
 footer {
-  background-color: black;
   padding: 10px;
-  padding-left: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: violet;
+  background-color: black;
 }
-footer span {
-  color: #2434c4;
-  background-color: black;
-  padding: 10px;
-  font-size: 25px;
+
+.whassaplogo {
+  width: 50px;
+  border-radius: 25%;
 }
 
 .eventosjpg {
