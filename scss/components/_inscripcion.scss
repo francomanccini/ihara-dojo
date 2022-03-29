@@ -1,6 +1,35 @@
-.formulario{
+.tituloinscripcion{
+    color: white;
+    text-align: center;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(236, 65, 208);
+    font-size: 50px;
+}
+.formulario {
+    margin: 0 auto;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.field{
+    padding: 10px;
+    width: 280px;
+}
+.botonenviar{
+    padding: 10px;
+    width: 130px;
+}
+.botonlimpiar{
+    padding: 10px;
+    width: 130px;
+}
+@media screen and ( max-width: 480px ){
+    .tituloinscripcion{
+        color: black;
+    }
+    .formulario{
+        background-color: violet;
+    }
+
 }

@@ -15,7 +15,7 @@
     <title>inscripcion/inscribase y comienze a entrenar</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,16 +26,16 @@
               <img  class="milogo" src="media/logo.jpg" alt="milogo">
             </a>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="peleadores.html">peleadores</a>
+            <a  aria-current="page" href="peleadores.html">peleadores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="eventos.html">eventos</a>
+            <a  aria-current="page" href="eventos.html">eventos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="info.html">info</a>
+            <a  aria-current="page" href="info.html">info</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="inscripcion.html">inscripcion</a>
+            <a  aria-current="page" href="inscripcion.html">inscripcion</a>
           </li>
         </ul>
       </div>
@@ -46,55 +46,31 @@
     kickboxing & muay thai
     <img class="banderas" src="media/banderadethailandia.png" alt="banderadethailandia">
   </h1>
-    <div class="formulario" >
+    
       <div>
-        <form method="GET" action="recibe.html">
-      </div>          
-          <div>
-              <input type="text" name="inp_nombre" value="" placeholder="ingresa tu nombre">
-          </div>
-          <div>
-            <input type="text" name="inp_peso" value="" placeholder="ingresa tu peso">
-          </div>
-          <div>
-            <input type="text" name="inp_edad" value="" placeholder="ingresa tu edad">
-          </div>
-          <div>
-            <input type="text" name="inp_gmail.com" value="" placeholder="ingresa tu gmail">
-          </div>  
-          <div>
-            <input type="text" name="inp_telefono" value="" placeholder="ingresa tu telefono">
-          </div>  
-          <div>  
-            <p class="pinput">los entrenamientos seran por turnos de una hora y media que estaran 
-              divididas por rutinas de calentamiento ,preparacion fisica ,tecnica
-              ,musculacion y sparring</p>
-          </div>
-          <div>
-            <label>acepta nuestros terminos de entranmiento</label>
-          </div>
-          <div>
-            <input type="checkbox" name="categorias" value="productos">
-          </div>
-          <div>
-            <label>genero</label>
-          </div>
-          <div>
+        <p class="tituloinscripcion" >sumate a nuestras clases</p>
+      </div>
+        <form class="formulario" method="GET" action="recibe.html">
+            <input class="field" type="text" name="inp_nombre" value="" placeholder="ingresa tu nombre"><br>
+            <input class="field" type="text" name="inp_peso" value="" placeholder="ingresa tu peso"><br>
+            <input class="field" type="text" name="inp_edad" value="" placeholder="ingresa tu edad"><br>
+            <input class="field" type="text" name="inp_gmail.com" value="" placeholder="ingresa tu gmail"><br>
+            <input class="field" type="text" name="inp_telefono" value="" placeholder="ingresa tu telefono"><br>
+            <p class="pinput">los entrenamientos seran por turnos de una hora y media que estaran divididas por rutinas de calentamiento ,preparacion fisica ,tecnica
+              ,musculacion y sparring</p><br>
+            <label>acepta nuestros terminos de entranmiento</label><br>
+            <input class="field" type="checkbox" name="categorias" value="productos"><br>
+            <label>genero</label><br>
             <select>	
-                        <option value="masculino">masculino</option>
-                        <option value="femenino">femenino</option>
-                        <option value="prefiero no decirlo">prefiero no decirlo</option>
-            </select>	
-          </div>
-          <div>
-            <input type="submit" value="enviar">
-          </div>
-          </div>
-    <div>
-            <input type="reset" name="limpiar">
-          </div>  
+            <option value="masculino">masculino</option>
+            <option value="femenino">femenino</option>
+            <option value="prefiero no decirlo">prefiero no decirlo</option>
+            </select>	<br>
+            <input class="botonenviar" type="submit" value="enviar">
+            <input class="botonlimpiar" type="reset" name="limpiar">
         </form>
-    </div>
+    
+        <br>
     <footer>
       <div>
         Ihara Dojo Sede Central <br>
@@ -111,12 +87,12 @@
         Horarios: Lunes a Viernes de 17 a 21hs.<br>
       </div>
       <div>
-        <a href="https://www.instagram.com/kunma1985/">
+        <a  target="blank" href="https://www.instagram.com/kunma1985/">
           <img  class="instagramlogo" src="media/instagram-logo.png" alt="instagram">
         </a>
       </div>
       <div>
-        <a href="https://www.facebook.com/jmesteban1">
+        <a  target="blank" href="https://www.facebook.com/jmesteban1">
           <img  class="facebooklogo" src="media/facebook-logo.png" alt="facebook">
         </a>
       </div>

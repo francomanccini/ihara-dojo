@@ -47,9 +47,10 @@
   }
 
   .tituloseventos {
+    color: violet;
     padding: 10px;
     padding-left: 100px;
-    background-color: aliceblue;
+    background-color: black;
   }
 
   .divargentina {
@@ -63,11 +64,11 @@
     padding-left: 50px;
     display: block;
   }
-}
-.nav-item {
-  color: blue;
-}
 
+  .parrafoeventos {
+    color: black;
+  }
+}
 .divprincipal {
   padding: 10px;
   display: flex;
@@ -132,7 +133,7 @@
 
 .divruiebatafight {
   padding: 5px;
-  padding-left: 320px;
+  padding-left: 325px;
 }
 
 .ruiebatafight {
@@ -301,6 +302,7 @@
   }
 
   .textopeleadores {
+    color: black;
     padding: 10px;
     padding-left: 180px;
     background-color: aliceblue;
@@ -359,11 +361,55 @@
     width: 500px;
   }
 }
-.formulario {
+.tituloinscripcion {
+  color: white;
+  text-align: center;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
-  background-color: #ec41d0;
+  font-size: 50px;
+}
+
+.formulario {
+  margin: 0 auto;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.field {
+  padding: 10px;
+  width: 280px;
+}
+
+.botonenviar {
+  padding: 10px;
+  width: 130px;
+}
+
+.botonlimpiar {
+  padding: 10px;
+  width: 130px;
+}
+
+@media screen and (max-width: 480px) {
+  .tituloinscripcion {
+    color: black;
+  }
+
+  .formulario {
+    background-color: violet;
+  }
+}
+.navbar {
+  background-color: white;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.nav-link {
+  color: white;
 }
 
 body {
@@ -371,7 +417,7 @@ body {
 }
 
 h1 {
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   color: violet;
 }
@@ -385,7 +431,7 @@ h1:hover {
 }
 
 .milogo {
-  width: 85px;
+  width: 75px;
   border-radius: 35%;
 }
 .milogo:hover {
@@ -393,6 +439,9 @@ h1:hover {
 }
 
 a {
+  padding-top: 15px;
+  padding: 15px;
+  text-decoration: none;
   color: violet;
   font-size: 40px;
 }
