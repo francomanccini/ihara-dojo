@@ -64,6 +64,10 @@
     display: block;
   }
 }
+.nav-item {
+  color: blue;
+}
+
 .divprincipal {
   padding: 10px;
   display: flex;
@@ -369,15 +373,19 @@ body {
 h1 {
   padding: 5px;
   text-align: center;
-  background-color: black;
-  color: white;
+  color: violet;
 }
 h1:hover {
-  background-color: #120124;
+  transform: scale(110%);
+}
+
+.banderas {
+  width: 85px;
+  border-radius: 10%;
 }
 
 .milogo {
-  width: 100px;
+  width: 85px;
   border-radius: 35%;
 }
 .milogo:hover {
@@ -385,21 +393,28 @@ h1:hover {
 }
 
 a {
-  font-size: 25px;
+  color: violet;
+  font-size: 40px;
 }
 a:hover {
   transform: scale(105%);
 }
 
 .instagramlogo {
-  padding: 10px;
-  width: 65px;
+  padding: 15px;
+  width: 75px;
+}
+.instagramlogo:hover {
+  transform: scale(105%);
 }
 
 .facebooklogo {
-  padding: 10px;
-  width: 65px;
+  padding: 15px;
+  width: 75px;
   border-radius: 20px;
+}
+.facebooklogo:hover {
+  transform: scale(105%);
 }
 
 footer {
@@ -414,6 +429,9 @@ footer {
 .whassaplogo {
   width: 50px;
   border-radius: 25%;
+}
+.whassaplogo:hover {
+  transform: scale(105%);
 }
 
 .eventosjpg {
