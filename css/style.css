@@ -1,0 +1,491 @@
+.divparrafoeventos1 {
+  padding: 10px;
+}
+
+.parrafoeventos {
+  padding: 5px;
+  color: rgb(228, 112, 203);
+}
+
+.tituloseventos {
+  padding: 5px;
+  padding-left: 550px;
+  color: black;
+  background-color: white;
+}
+
+.tituloticktes {
+  padding: 5px;
+  padding-left: 550px;
+  color: black;
+  text-align: center;
+}
+
+.aticktes {
+  color: violet;
+}
+
+.divargentina {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.divfotoeventos {
+  padding: 10px;
+}
+
+.divjapon {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.eventosjpg {
+  width: 800px;
+}
+
+@media screen and (max-width: 480px) {
+  .divparrafoeventos1 {
+    padding: 10px;
+    display: flex;
+  }
+  .parrafoeventos {
+    padding: 10px;
+    padding-left: 50px;
+    justify-content: center;
+  }
+  .tituloseventos {
+    color: violet;
+    padding: 10px;
+    padding-left: 100px;
+    background-color: black;
+  }
+  .divargentina {
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+  }
+  .divjapon {
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+  }
+  .parrafoeventos {
+    color: black;
+  }
+}
+.divprincipal {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1uno {
+  color: black;
+  background-color: black;
+}
+
+.fotoprincipal {
+  padding: 10px;
+  width: 900px;
+}
+
+.divparrafo1 {
+  padding: 10px;
+}
+
+.parrafo1 {
+  background-color: black;
+}
+
+.divseminario {
+  padding: 10px;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.fotosseminario {
+  width: 600px;
+}
+
+.divtextoseminario {
+  padding: 15px;
+}
+
+.textoseminario {
+  padding: 10px;
+  padding-left: 350px;
+  color: rgb(228, 112, 203);
+  font-size: 17px;
+}
+
+.divtitulocarrusel {
+  padding: 10px;
+}
+
+.titulocarrusel {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  padding-left: 400px;
+}
+
+.divcarrusel {
+  padding: 10px;
+  padding-left: 100px;
+}
+
+.imagenescarrusel {
+  padding-left: 150px;
+}
+
+.divruiebatafight {
+  padding: 5px;
+  padding-left: 325px;
+}
+
+.ruiebatafight {
+  padding: 5px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .fotoprincipal {
+    padding: 10px;
+    padding-left: 250px;
+    width: 900px;
+  }
+  .divparrafo1 {
+    display: block;
+  }
+  .parrafo1 {
+    display: block;
+  }
+  .divseminario {
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+  }
+  .fotosseminario {
+    padding: 10px;
+  }
+  .divtextoseminario {
+    padding: 10px;
+    padding-left: 50px;
+  }
+  .textoseminario {
+    padding: 10px;
+    color: black;
+  }
+  .divtitulocarrusel {
+    padding: 5px;
+  }
+  .divcarrusel {
+    padding: 10px;
+    padding-left: 200px;
+  }
+  .imagenescarrusel {
+    width: 900px;
+  }
+  .ruiebatafight {
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    padding-left: 200px;
+  }
+  .divruiebatafight {
+    padding: 10px;
+    padding-left: 5px;
+  }
+}
+.col {
+  padding: 10px;
+}
+
+.photopeleadores {
+  padding: 5px;
+  width: 600px;
+}
+
+.titulopeleadores {
+  padding: 10px;
+  padding-left: 35px;
+  color: rgb(151, 28, 120);
+  background-color: white;
+}
+
+.textopeleadores {
+  color: rgb(228, 112, 203);
+}
+
+.galeriaanibal1 {
+  padding: 10px;
+  padding-left: 30px;
+  width: 500px;
+}
+
+.galeriaanibal2 {
+  padding: 10px;
+  padding-left: 30px;
+  width: 500px;
+}
+
+.divgaleriaema {
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.galeriaema1 {
+  padding: 5px;
+  width: 200px;
+}
+
+.galeriaema2 {
+  padding: 5px;
+  width: 300px;
+}
+
+.divgaleriafranco {
+  padding-left: 60px;
+}
+
+.galeriafranco1 {
+  padding: 5px;
+  width: 380px;
+}
+
+.galeriafranco2 {
+  padding: 5px;
+  width: 380px;
+}
+
+.divgaleriajopo {
+  padding-left: 50px;
+}
+
+.galeriajopo1 {
+  padding: 5px;
+  width: 380px;
+}
+
+.galeriajopo2 {
+  padding: 5px;
+  width: 380px;
+}
+
+.divgaleriajuan {
+  padding-left: 70px;
+}
+
+.galeriajuan1 {
+  padding: 5px;
+  width: 300px;
+}
+
+.galeriajuan2 {
+  padding: 5px;
+  width: 300px;
+}
+
+@media screen and (max-width: 480px) {
+  .titulopeleadores {
+    padding: 10px;
+    padding-left: 160px;
+    color: black;
+    background-color: aliceblue;
+  }
+  .textopeleadores {
+    color: black;
+    padding: 10px;
+    padding-left: 180px;
+    background-color: aliceblue;
+  }
+}
+.divnuestraconviccion {
+  padding: 10px;
+  color: rgb(228, 112, 203);
+}
+
+.divcaichoiara {
+  padding: 10px;
+  color: rgb(228, 112, 203);
+}
+
+.tituloinfo {
+  padding: 15px;
+  padding-left: 450px;
+  color: black;
+  background-color: white;
+}
+
+.divshigemori {
+  padding: 10px;
+  padding-left: 150px;
+}
+
+.shigemori {
+  width: 1000px;
+}
+
+@media screen and (max-width: 480px) {
+  .divnuestraconviccion {
+    padding: 10px;
+    padding-left: 100px;
+    color: black;
+  }
+  .divcaichoiara {
+    padding: 10px;
+    padding-left: 100px;
+    color: black;
+  }
+  .tituloinfo {
+    padding: 10px;
+    text-align: center;
+  }
+  .divshigemori {
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .shigemori {
+    width: 500px;
+  }
+}
+.tituloinscripcion {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.formulario {
+  margin: 0 auto;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.field {
+  padding: 10px;
+  width: 280px;
+}
+
+.botonenviar {
+  padding: 10px;
+  width: 130px;
+}
+
+.botonlimpiar {
+  padding: 10px;
+  width: 130px;
+}
+
+@media screen and (max-width: 480px) {
+  .tituloinscripcion {
+    color: black;
+  }
+  .formulario {
+    background-color: violet;
+  }
+}
+.navbar {
+  background-color: white;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+body {
+  background-color: rgb(18, 1, 36);
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+h1:hover {
+  transform: scale(110%);
+}
+
+.banderas {
+  width: 85px;
+  border-radius: 10%;
+}
+
+.milogo {
+  width: 75px;
+  border-radius: 35%;
+}
+.milogo:hover {
+  color: rgb(18, 1, 36);
+}
+
+a {
+  padding-top: 15px;
+  padding: 15px;
+  text-decoration: none;
+  color: violet;
+  font-size: 40px;
+}
+a:hover {
+  transform: scale(105%);
+}
+
+.instagramlogo {
+  padding: 15px;
+  width: 75px;
+}
+.instagramlogo:hover {
+  transform: scale(105%);
+}
+
+.facebooklogo {
+  padding: 15px;
+  width: 75px;
+  border-radius: 20px;
+}
+.facebooklogo:hover {
+  transform: scale(105%);
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: violet;
+  background-color: black;
+}
+
+.whassaplogo {
+  width: 50px;
+  border-radius: 25%;
+}
+.whassaplogo:hover {
+  transform: scale(105%);
+}
+
+.eventosjpg {
+  width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: aliceblue;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@
 
 .parrafoeventos {
   padding: 5px;
-  color: #e470cb;
+  color: rgb(228, 112, 203);
 }
 
 .tituloseventos {
@@ -12,6 +12,18 @@
   padding-left: 550px;
   color: black;
   background-color: white;
+  border-radius: 20px;
+}
+
+.tituloticktes {
+  padding: 5px;
+  padding-left: 550px;
+  color: black;
+  text-align: center;
+}
+
+.aticktes {
+  color: violet;
 }
 
 .divargentina {
@@ -32,6 +44,17 @@
 
 .eventosjpg {
   width: 800px;
+  border-radius: 10px;
+}
+
+.divbotoncomprar {
+  padding: 20px;
+  padding-left: 500px;
+}
+
+.botoncomprar {
+  padding: 5px;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 480px) {
@@ -39,32 +62,27 @@
     padding: 10px;
     display: flex;
   }
-
   .parrafoeventos {
     padding: 10px;
     padding-left: 50px;
     justify-content: center;
   }
-
   .tituloseventos {
     color: violet;
     padding: 10px;
     padding-left: 100px;
     background-color: black;
   }
-
   .divargentina {
     padding: 10px;
     padding-left: 50px;
     display: block;
   }
-
   .divjapon {
     padding: 10px;
     padding-left: 50px;
     display: block;
   }
-
   .parrafoeventos {
     color: black;
   }
@@ -79,6 +97,7 @@
 .fotoprincipal {
   padding: 10px;
   width: 900px;
+  border-radius: 20px;
 }
 
 .divparrafo1 {
@@ -86,7 +105,9 @@
 }
 
 .parrafo1 {
+  padding: 5px;
   background-color: white;
+  border-radius: 10px;
 }
 
 .divseminario {
@@ -98,6 +119,7 @@
 
 .fotosseminario {
   width: 600px;
+  border-radius: 20px;
 }
 
 .divtextoseminario {
@@ -107,7 +129,7 @@
 .textoseminario {
   padding: 10px;
   padding-left: 350px;
-  color: #e470cb;
+  color: rgb(228, 112, 203);
   font-size: 17px;
 }
 
@@ -120,6 +142,7 @@
   background-color: white;
   padding: 10px;
   padding-left: 400px;
+  border-radius: 20px;
 }
 
 .divcarrusel {
@@ -137,10 +160,11 @@
 }
 
 .ruiebatafight {
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   color: black;
   background-color: white;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -149,55 +173,44 @@
     padding-left: 250px;
     width: 900px;
   }
-
   .divparrafo1 {
     display: block;
   }
-
   .parrafo1 {
     display: block;
   }
-
   .divseminario {
     padding: 10px;
     padding-left: 50px;
     display: block;
   }
-
   .fotosseminario {
     padding: 10px;
   }
-
   .divtextoseminario {
     padding: 10px;
     padding-left: 50px;
   }
-
   .textoseminario {
     padding: 10px;
     color: black;
   }
-
   .divtitulocarrusel {
     padding: 5px;
   }
-
   .divcarrusel {
     padding: 10px;
     padding-left: 200px;
   }
-
   .imagenescarrusel {
     width: 900px;
   }
-
   .ruiebatafight {
     color: black;
     background-color: aliceblue;
     padding: 10px;
     padding-left: 200px;
   }
-
   .divruiebatafight {
     padding: 10px;
     padding-left: 5px;
@@ -210,17 +223,19 @@
 .photopeleadores {
   padding: 5px;
   width: 600px;
+  border-radius: 20px;
 }
 
 .titulopeleadores {
   padding: 10px;
   padding-left: 35px;
-  color: #971c78;
+  color: rgb(151, 28, 120);
   background-color: white;
+  border-radius: 10px;
 }
 
 .textopeleadores {
-  color: #e470cb;
+  color: rgb(228, 112, 203);
 }
 
 .galeriaanibal1 {
@@ -300,7 +315,6 @@
     color: black;
     background-color: aliceblue;
   }
-
   .textopeleadores {
     color: black;
     padding: 10px;
@@ -310,12 +324,12 @@
 }
 .divnuestraconviccion {
   padding: 10px;
-  color: #e470cb;
+  color: rgb(228, 112, 203);
 }
 
 .divcaichoiara {
   padding: 10px;
-  color: #e470cb;
+  color: rgb(228, 112, 203);
 }
 
 .tituloinfo {
@@ -323,6 +337,7 @@
   padding-left: 450px;
   color: black;
   background-color: white;
+  border-radius: 20px;
 }
 
 .divshigemori {
@@ -340,32 +355,30 @@
     padding-left: 100px;
     color: black;
   }
-
   .divcaichoiara {
     padding: 10px;
     padding-left: 100px;
     color: black;
   }
-
   .tituloinfo {
     padding: 10px;
     text-align: center;
   }
-
   .divshigemori {
     padding: 5px;
     padding-left: 10px;
   }
-
   .shigemori {
     width: 500px;
   }
 }
 .tituloinscripcion {
-  color: white;
+  color: violet;
+  background-color: white;
   text-align: center;
-  padding: 10px;
-  font-size: 50px;
+  padding: 5x;
+  font-size: 40px;
+  border-radius: 15px;
 }
 
 .formulario {
@@ -373,12 +386,14 @@
   width: 300px;
   background-color: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .field {
   padding: 10px;
+  padding-top: 10px;
   width: 280px;
+  border-radius: 10px;
 }
 
 .botonenviar {
@@ -395,7 +410,6 @@
   .tituloinscripcion {
     color: black;
   }
-
   .formulario {
     background-color: violet;
   }
@@ -413,7 +427,7 @@
 }
 
 body {
-  background-color: #120124;
+  background-color: rgb(18, 1, 36);
 }
 
 h1 {
@@ -435,7 +449,7 @@ h1:hover {
   border-radius: 35%;
 }
 .milogo:hover {
-  color: #120124;
+  color: rgb(18, 1, 36);
 }
 
 a {

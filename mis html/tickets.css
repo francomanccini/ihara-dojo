@@ -1,0 +1,54 @@
+body{
+    font-style: italic;
+    background-color:rgb(18, 1, 36) ;
+    font-family: 'Alfa Slab One', cursive; 
+} 
+a{
+    text-decoration: none;
+}
+#formulario{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    padding: 10px;
+}
+input{
+    padding: 10px;
+}
+#btnprincipal{  
+    color: black;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    color: violet;
+    background-color: white;
+}
+li{
+    display:inline-block;
+    padding: 50px;
+    padding-left: 180px;
+}
+h2{
+    color: violet;
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    color: white;
+    padding: 10px;
+}
+p{
+    color: white;
+    padding: 10px;
+}
+b{
+    color: white;
+    padding: 10px;
+}
+button{
+    font-size: 15px;
+}

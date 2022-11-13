@@ -1,7 +1,6 @@
 {
   "name": "mi-proyecto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +15,12 @@
     "url": "https://github.com/francomanccini/ihara-dojo/issues"
   },
   "homepage": "https://github.com/francomanccini/ihara-dojo#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "description": "",
   "dependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "sass": "^1.56.1"
   }
 }

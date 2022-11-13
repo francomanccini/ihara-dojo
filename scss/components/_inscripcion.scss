@@ -1,20 +1,24 @@
 .tituloinscripcion{
-    color: white;
+    color: violet;
+    background-color: white ;
     text-align: center;
-    padding: 10px;
-    font-size: 50px;
+    padding: 5x;
+    font-size: 40px;
+    border-radius: 15px;
 }
 .formulario {
     margin: 0 auto;
     width: 300px;
     background-color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 .field{
     padding: 10px;
+    padding-top: 10px;
     width: 280px;
+    border-radius: 10px;
 }
 .botonenviar{
     padding: 10px;
